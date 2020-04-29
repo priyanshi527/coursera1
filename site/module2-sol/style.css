@@ -1,0 +1,121 @@
+*{
+		box-sizing: border-box;
+	}
+	h1{
+		margin-bottom: 15px;
+		font-size: 175%;
+		font-family: Helvetica;
+		text-align: center;
+	}
+	section#container {
+			position: relative;
+			background-color: gray;
+			top: 60px;
+		}
+
+	h1 {
+		    display: block;
+		    font-size: 175%;
+			font-weight: bold;
+		}
+	div {
+		display: block;
+	}	
+	p{
+		padding: 10px;
+		margin-top: 30px;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		}
+	.row{
+		width: 100%;
+	}
+@media(min-width: 992px)
+	{
+	.col-lg-4{
+		float: left;
+	}
+	.col-lg-4 {
+			width: 33%;
+		}
+	}
+@media(min-width: 768px) and (max-width: 991px){
+    	.col-md-6,.col-md-12{
+    		float: left;
+    	}	
+    	.col-md-6{
+           width: 50%;
+    	}
+        }
+    	.col-md-12{
+    		width: 100%;
+    	}
+    }
+@media(max-width: 767px)
+{
+	.col-sm-12{
+		float: left;
+	}
+	.col-sm-12{
+		width: 100%;
+	}
+}    			
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+section{
+	border: 1px solid black;
+	background-color: gray;
+	width: 100%;
+	font-family:Helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
+	display: block; 
+}
+#Chicken{
+	border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    font-size: 125%;
+	background-color: #5F9EA0;
+	padding: 5px;
+	font-family:Helvetica;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-weight: 600;
+}
+#Beef
+{
+	border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    font-size: 125%;
+	background-color: #DEB887;
+	padding: 5px;
+	font-family:Helvetica;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-weight: 600;
+}
+#Shushi
+{
+	border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    font-size: 125%;
+	background-color: #FF7F50;
+	padding: 5px;
+	font-family:Helvetica;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-weight: 600;
+}
